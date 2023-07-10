@@ -2,7 +2,7 @@
 
 A Hospital API built using Node.js and MongoDB. This API allows doctors to register, login, register patients, and create reports for patients. The reports can have four possible statuses: Negative, Travelled-Quarantine, Symptoms-Quarantine, and Positive-Admit. The API also provides routes to retrieve patient reports based on specific criteria.
 
-## Required Routes
+##  Routes used
 
 - `/doctors/register`: Register a doctor with username and password.
 - `/doctors/login`: Login as a doctor and receive a JWT (JSON Web Token) for authentication.
@@ -13,7 +13,7 @@ A Hospital API built using Node.js and MongoDB. This API allows doctors to regis
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/hospital-api.git`
+1. Clone the repository: `git clone https://github.com/ashwani312/HospitalAPI.git`
 2. Install the dependencies: `npm install`
 3. Configure the MongoDB connection in the `config.js` file.
 4. Start the server: `npm start`
